@@ -17,6 +17,7 @@ If you have any questions, or if you want the latest docker image of Examind Com
     -  [Notebook with the python client](./openEO/openeo_examind_python_client_example.ipynb)
   - 📋 *Import data* -> [How to import my data in examind ?](./openEO/import_data.md)
   - 📋 *Retrieve data Id & service Id* -> [How do you retrieve the id of the data you want to use ?](./openEO/retrieve_data_id.md)
+  - 📂 *Resources* -> [Resources for OpenEO](./openEO/resources.md)
 
 
 - ⚙️ **Run external process via CWL** *(Expose external processes through WPS, Processes, OpenEO using Common Workflow Language)*
@@ -24,16 +25,19 @@ If you have any questions, or if you want the latest docker image of Examind Com
   - 📋 *Configuration of Examind (any cases)* -> [Examind Conf](./ExternalProcesses/examind_conf_cwl.md)
   - 📙 *Tutorial with dockerized NDVI process (Jupyter Notebook)* -> [Dockerized NDVI process tutorial with CWL](./ExternalProcesses/cwl_dockerized_ndvi.ipynb)
   - 📙 *Tutorial for STAC data downloader (Juypyter Notebook)* -> [Dockerized External Stac tutorial with CWL](./ExternalProcesses/cwl_stac_downloader.ipynb)
+  - 📂 *Resources* -> [Resources for External Processes with CWL](./ExternalProcesses/resources.md)
 
 
 - 🌌 **Galaxy Workflows through WPS**
   - 📙 *Example (Jupyter Notebook)* -> [Jupyter notebook with some WPS requests for Galaxy workflows](./GalaxyWPS/galaxy_workflows_wps.ipynb)
   - 📄 *Tutorial (PDF)* -> [Deploy and use Galaxy Workflows with Examind WPS](./GalaxyWPS/Deploy_and_Use_Galaxy_Workflow_With_Exa_WPS.pdf)
+  - 📂 *Resources* -> [Resources for Galaxy Workflows through WPS](./GalaxyWPS/resources.md)
 
 
 - ⏱️ **Time Data Aggregation**
   - 📄 *Tutorial (PDF)* -> [Importing geotiff time series data into Examind Community](./TimeDataAggregation/Importing_geotiff_time_series_data_into_Examind_Community.pdf)
-  - 📼 *Video (Italy Soil data aggregation through S3)* -> [Access link](https://nextcloud.geomatys.com/s/jQi6aj2iXXDFkKG)
+  - 📼 *Video (Italy Soil data aggregation through S3)* -> [Access link](https://files.geomatys.com/s/jQi6aj2iXXDFkKG)
+  - 📂 *Resources* -> [Resources for Time Data Aggregation](./TimeDataAggregation/resources.md)
 
 
 - 🗺️ **Setup WMS, and visualisation in Terriamap**
