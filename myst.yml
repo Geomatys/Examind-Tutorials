@@ -12,7 +12,6 @@ project:
     - title: OpenEO
       children:
         - file: openEO/import_data.md
-        - file: openEO/retrieve_data_id.md
         - file: openEO/openeo_examind_web_editor_example.ipynb
         - file: openEO/openeo_examind_python_client_example.ipynb
         - file: openEO/openeo_examind_http_example.ipynb

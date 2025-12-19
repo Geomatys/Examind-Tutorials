@@ -16,7 +16,6 @@ If you have any questions, or if you want the latest docker image of Examind Com
     -  [Notebook with the OpenEO web editor](./openEO/openeo_examind_web_editor_example.ipynb)
     -  [Notebook with the python client](./openEO/openeo_examind_python_client_example.ipynb)
   - 📋 *Import data* -> [How to import my data in examind ?](./openEO/import_data.md)
-  - 📋 *Retrieve data Id & service Id* -> [How do you retrieve the id of the data you want to use ?](./openEO/retrieve_data_id.md)
   - 📂 *Resources* -> [Resources for OpenEO](./openEO/resources.md)
 
 

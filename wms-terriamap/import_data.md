@@ -9,11 +9,8 @@ title: How to import my data in Examind ?
 ---
 
 - For example, if you choose S3 :
-```{image} images/add-data-step1-s3.png
-:alt: Web ui - import data s3
-:width: 100%
-:align: center
-```
+
+![Web ui - import data s3](images/add-data-step1-s3.png)
 
 **/!\ Info** :
   - You can use AWS S3 or Specific S3 instance (with minio for example)
@@ -38,11 +35,8 @@ title: How to import my data in Examind ?
 ---
 
 - If you choose Server file :
-```{image} images/add-data-step1-serverfile.png
-:alt: Web ui - import data server file
-:width: 100%
-:align: center
-```
+
+![Web ui - import data server file](images/add-data-step1-serverfile.png)
 
 ---
 
@@ -60,34 +54,23 @@ In the case of a `Server file`, the path will be `file:///var/examind/<path_to_y
 6. Select the file format (in my case `SIS: TIFF`, for geotiff files, `SIS: NETCDF` for netcdf files)
 7. Click on **Next** (bottom of the page)
 8. Select your resource, and click on **Next**
-```{image} images/add-data-step2-datavisualisation.png
-:alt: Web ui - import data second step
-:width: 100%
-:align: center
-```
+
+![Web ui - import data second step](images/add-data-step2-datavisualisation.png)
+
 9. If you don't have a dataset, create one (set a name, a title, and click on **Next**)
-```{image} images/add-data-step3-selectdataset.png
-:alt: Web ui - import data third step select dataset
-:width: 100%
-:align: center
-```
+
+![Web ui - import data third step select dataset](images/add-data-step3-selectdataset.png)
+
 Select a dataset **OR** Create a new one
-```{image} images/add-data-step3-createdataset.png
-:alt: Web ui - import data third step create dataset
-:width: 100%
-:align: center
-```
+
+![Web ui - import data third step create dataset](images/add-data-step3-createdataset.png)
+
 10. In the **Metadata** part, you can set some values if you want, but you also can skip with the button Next or finish at the bottom of the page.
-```{image} images/add-data-step4-fillthemetadata.png
-:alt: Web ui - import data fourth step metadata
-:width: 100%
-:align: center
-```
-```{image} images/add-data-step4-buttons.png
-:alt: Web ui - import data fourth step buttons
-:width: 100%
-:align: center
-```
+
+![Web ui - import data fourth step metadata](images/add-data-step4-fillthemetadata.png)
+
+![Web ui - import data fourth step buttons](images/add-data-step4-buttons.png)
+
 11. Click on **Finish**, or on **Next** if you want to set a style to your data => [How to set a style to my data in examind ?](./style_data.md)
 
 You can find your dataset and associated data in the Examind **Data** tab.
