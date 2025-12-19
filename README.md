@@ -34,6 +34,7 @@ If you have any questions, or if you want the latest docker image of Examind Com
 
 
 - ⏱️ **Time Data Aggregation**
+  - 📙 *Example (Jupyter Notebook)* -> [Jupyter notebook with NDVI Aggregation - How to request data ?](./TimeDataAggregation/ndvi_aggregation.ipynb)
   - 📄 *Tutorial (PDF)* -> [Importing geotiff time series data into Examind Community](./TimeDataAggregation/Importing_geotiff_time_series_data_into_Examind_Community.pdf)
   - 📼 *Video (Italy Soil data aggregation through S3)* -> [Access link](https://files.geomatys.com/s/jQi6aj2iXXDFkKG)
   - 📂 *Resources* -> [Resources for Time Data Aggregation](./TimeDataAggregation/resources.md)

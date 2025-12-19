@@ -31,6 +31,7 @@ project:
     - title: Time Data Aggregation
       children:
         - file: TimeDataAggregation/index.md
+        - file: TimeDataAggregation/ndvi_aggregation.ipynb
         - file: TimeDataAggregation/video_italy_soil.md
         - file: TimeDataAggregation/resources.md
     - title: External Processes with CWL
