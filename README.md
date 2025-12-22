@@ -34,7 +34,7 @@ If you have any questions, or if you want the latest docker image of Examind Com
 
 
 - ⏱️ **Time Data Aggregation**
-  - 📙 *Example (Jupyter Notebook)* -> [Jupyter notebook with NDVI Aggregation - How to request data ?](./TimeDataAggregation/ndvi_aggregation.ipynb)
+  - 📙 *Example (Jupyter Notebook)* -> [Jupyter notebook with NDVI Aggregation - How to import and request data ?](./TimeDataAggregation/ndvi_aggregation.ipynb)
   - 📄 *Tutorial (PDF)* -> [Importing geotiff time series data into Examind Community](./TimeDataAggregation/Importing_geotiff_time_series_data_into_Examind_Community.pdf)
   - 📼 *Video (Italy Soil data aggregation through S3)* -> [Access link](https://files.geomatys.com/s/jQi6aj2iXXDFkKG)
   - 📂 *Resources* -> [Resources for Time Data Aggregation](./TimeDataAggregation/resources.md)
@@ -53,3 +53,42 @@ You also have in this repository :
 - A 🐋 [docker-compose](./docker-compose.yml) file (for examind-community) (**you need to import the docker image before**)
 - A 📜 [run.sh](./run.sh) script (to run examind)
 - A 📜 [stop.sh](./stop.sh) script (to stop examind)
+
+---
+
+### 📙 Generate Jupyter-Book documentation
+To generate the documentation using Jupyter-Book, you need to have Jupyter-Book installed. If you don't have it yet, you can install it using pip:
+
+```bash
+pip install -U jupyter-book
+```
+
+Once you have Jupyter-Book installed, navigate to the root directory of the repository and run the following command:
+
+```bash
+jupyter-book build --html
+```
+
+This command will generate the documentation in the `_build/html` directory. You can open the `index.html` file in that directory with your web browser to view the generated documentation.
+
+**NOTE :** If you only want to have the documentation "one time" using this repo you can run :
+
+```bash
+jupyter-book start
+```
+
+### 🖥️ Open the generated documentation
+
+To open the generated documentation, you need to run a web server with the `_build/html` directory as the root. 
+You can use Python's built-in HTTP server for this purpose.
+
+Navigate to the `_build/html` directory:
+
+```bash
+cd _build/html
+```
+Then, start the HTTP server using Python:
+```bash
+python -m http.server 8000
+```
+This command will start a web server on port 8000. You can access the documentation by opening your web browser and navigating to `http://localhost:8000`.

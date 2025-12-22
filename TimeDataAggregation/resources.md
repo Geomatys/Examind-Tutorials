@@ -16,3 +16,7 @@ Generate your own `file_list.txt` with the paths to your time series data files 
 You will maybe need to modify the script to fit your specific file structure and naming conventions.
 In this example we assume that the files are named with a date format `NDVI_AYYYYDDD_MOD13Q1.006.tif`.
 :::
+
+## Script to generate COG (Cloud Optimized GeoTIFF) from original GeoTIFF files
+
+- [generate_cog.sh](scripts_config/generate_cog.sh) : A shell script that converts original GeoTIFF files into Cloud Optimized GeoTIFF (COG) format using `gdal_translate`. This is important for optimizing data storage and access in cloud environments.
