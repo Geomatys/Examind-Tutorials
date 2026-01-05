@@ -9,6 +9,8 @@ This directory contains the code for the STAC Downloader process.
 - [Dockerfile](Code/ExternalStacProcess/Dockerfile)
 - [STACDownloader.cwl](Code/ExternalStacProcess/STACDownloader.cwl)
 - [stac_downloader.py](Code/ExternalStacProcess/stac_downloader.py)
+- [stac_downloader_ifremer.py](Code/ExternalStacProcess/stac_downloader_ifremer.py) (an alternative to use alternates links with ifremer STAC when `HTTPS_IFREMER` is present in assets)
+- [Dockerfile_ifremer](Code/ExternalStacProcess/Dockerfile_ifremer) (an alternative Dockerfile to use the ifremer STAC downloader)
 
 ### NDVIMultiSensor
 
