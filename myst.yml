@@ -3,43 +3,47 @@ version: 1
 project:
   id: 6bccff9f-ea27-4afe-9aa7-fac5ffc86768
   title: Examind Tutorials
+  subtitle: Learn how to use Examind Community with practical examples
   authors:
     - name: Quentin BIALOTA (Geomatys)
   exports:
     - format: pdf
   toc:
     - file: README.md
-    - title: OpenEO
+    - title: 🛰️ OpenEO
       children:
         - file: openEO/import_data.md
         - file: openEO/openeo_examind_web_editor_example.ipynb
         - file: openEO/openeo_examind_python_client_example.ipynb
         - file: openEO/openeo_examind_http_example.ipynb
         - file: openEO/resources.md
-    - title: Galaxy WPS
+    - title: ⚙️ External Processes with CWL
+      children:
+      - file: ExternalProcesses/examind_conf_cwl.md
+      - file: ExternalProcesses/podman_rootless.md
+      - file: ExternalProcesses/cwl_dockerized_ndvi.ipynb
+      - file: ExternalProcesses/cwl_stac_downloader.ipynb
+      - file: ExternalProcesses/resources.md
+    - title: 🌌 Galaxy WPS
       children:
         - file: GalaxyWPS/galaxy_workflows_wps.ipynb
         - file: GalaxyWPS/pdf_deploy_galaxy.md
         - file: GalaxyWPS/resources.md
-    - title: WMS Terriamap
+    - title: ⏱️ Time Data Aggregation
+      children:
+        - file: TimeDataAggregation/index.md
+        - file: TimeDataAggregation/ndvi_aggregation.ipynb
+        - file: TimeDataAggregation/video_italy_soil.md
+        - file: TimeDataAggregation/resources.md
+    - title: 🗺️ WMS Terriamap
       children:
         - file: wms-terriamap/import_data.md
         - file: wms-terriamap/style_data.md
         - file: wms-terriamap/wms_setup.md
         - file: wms-terriamap/terriamap_config.md
         - file: wms-terriamap/terriamap_setup_example.md
-    - title: Time Data Aggregation
-      children:
-        - file: TimeDataAggregation/index.md
-        - file: TimeDataAggregation/ndvi_aggregation.ipynb
-        - file: TimeDataAggregation/video_italy_soil.md
-        - file: TimeDataAggregation/resources.md
-    - title: External Processes with CWL
-      children:
-        - file: ExternalProcesses/examind_conf_cwl.md
-        - file: ExternalProcesses/podman_rootless.md
-        - file: ExternalProcesses/cwl_dockerized_ndvi.ipynb
-        - file: ExternalProcesses/cwl_stac_downloader.ipynb
-        - file: ExternalProcesses/resources.md
 site:
   template: book-theme
+  title: Examind Tutorials
+  options:
+    logo_text: Examind Tutorials
