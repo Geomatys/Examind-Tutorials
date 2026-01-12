@@ -1,0 +1,4 @@
+dataType: data-store
+providerType: GeoTIFF
+location: "file:///var/examind/data/providers/files/tiff/sentinel_b03_b04_b08.tif"
+dataset: sentinel

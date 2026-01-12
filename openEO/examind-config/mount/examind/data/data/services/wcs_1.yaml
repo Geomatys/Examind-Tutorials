@@ -1,0 +1,9 @@
+name: openeo
+identifier: openeo
+type: wcs
+versions:
+- 1.0.0
+- 2.0.1
+collections:
+   - dataSet: sentinel
+   

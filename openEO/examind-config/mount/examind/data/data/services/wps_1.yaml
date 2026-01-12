@@ -1,0 +1,7 @@
+name: openeo
+identifier: openeo
+type: wps
+versions:
+- 1.0.0
+- 2.0.0
+   
