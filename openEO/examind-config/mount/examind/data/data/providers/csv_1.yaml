@@ -1,0 +1,9 @@
+dataType: data-store
+providerType: geotk_csv
+location: "file:///var/examind/data/providers/files/csv/sdc_aggregated_v2_nat_station_1971_6.txt"
+dataset: csv_station
+advancedParameters:
+  separator: ","
+  lat_column: "latitude"
+  lon_column: "longitude"
+  crs: "EPSG:4326" # Optional, default is EPSG:4326
