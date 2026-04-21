@@ -1,0 +1,11 @@
+dataType: data-store
+providerType: coverage-sql
+location: "./jaxa/"
+directoryFilter: ".*\\.h5?$"
+source:
+   password: examind
+   userName: examind
+   location: "postgres://exa-db:5432/examind"  
+dataset: ds-jaxa-csql
+advancedParameters:
+   productName: jaxa-product

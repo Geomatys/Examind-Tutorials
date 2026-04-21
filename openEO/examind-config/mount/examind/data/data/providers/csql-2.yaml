@@ -1,0 +1,12 @@
+dataType: data-store
+providerType: coverage-sql
+location: "./tif/"
+directoryFilter: ".*\\.tif?$"
+source:
+   password: examind
+   userName: examind
+   location: "postgres://exa-db:5432/examind"  
+dataset: ds-tif-csql
+advancedParameters:
+   productName: PSR
+   subProviderType: 
