@@ -20,6 +20,10 @@ If you have any questions, or if you want the latest docker image of Examind Com
   - 📂 *Resources* -> [Resources for OpenEO](./openEO/resources.md)
 
 
+#### 🌊 **OGC API - EDR (Environmental Data Retrieval)**
+  - 📙 *Example (Jupyter Notebook)* -> [Notebook with the OWSLib python client (position, radius, area, cube, trajectory, corridor)](./edr/edr_examind_python_client_example.ipynb)
+
+
 #### ⚙️ **Run external process via CWL**
 *(Expose external processes through WPS, Processes, OpenEO using Common Workflow Language)*
   - 📋 *Pre-configuration of Examind if you use Podman Rootless* -> [Podman Rootless Conf](./ExternalProcesses/podman_rootless.md)

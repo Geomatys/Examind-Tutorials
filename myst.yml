@@ -17,6 +17,9 @@ project:
         - file: openEO/openeo_examind_python_client_example.ipynb
         - file: openEO/openeo_examind_http_example.ipynb
         - file: openEO/resources.md
+    - title: 🌊 OGC API - EDR
+      children:
+        - file: edr/edr_examind_python_client_example.ipynb
     - title: ⚙️ External Processes with CWL
       children:
       - file: ExternalProcesses/examind_conf_cwl.md
